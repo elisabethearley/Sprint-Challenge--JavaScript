@@ -47,8 +47,8 @@ const newCube = new CubeMaker ({
 
 console.log(cuboid.volume()); // 100
 console.log(cuboid.surfaceArea()); // 130
-console.log(newCube.cubeVolume());
-console.log(newCube.cubeSurfaceArea());
+console.log(newCube.cubeVolume()); // 64
+console.log(newCube.cubeSurfaceArea()); // 96
 
 
 

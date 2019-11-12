@@ -40,9 +40,11 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 // Explain in your own words why nestedfunction can access the variable internal.
 
 //Explanation: 
-console.log(`nestedFunction() can access the variable 'internal' because when context cannot 
+console.log(`
+nestedFunction() can access the variable 'internal' because when context cannot 
 be found within the same function's scope, the function is allowed to reach out to the global/window for 
-context for the variable. The variable 'internal' and nestedFunction() are both within the scope of myFunction().`);
+context for the variable. The variable 'internal' and nestedFunction() are both within the scope of myFunction().
+`);
 
 
 const external = "I'm outside the function";
